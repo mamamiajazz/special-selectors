@@ -1,0 +1,9 @@
+li:hover {
+    background-color: gold;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+li:active {
+    background-color: violet;
+}
