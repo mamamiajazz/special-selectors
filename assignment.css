@@ -11,5 +11,35 @@
     font-size: 80px;
 }
 
-/* Add your CSS styles below this line */
+.card a {
+    background-color: rgb(237, 130, 88);
+    color: rgb(255, 255, 255);
+    padding: 7%;
+    padding-left: 11%;
+    padding-right: 11%;
+    border-radius: 5%;
+    border: 2px solid rgb(237, 130, 88);
+}
 
+p:hover {
+    cursor: pointer;
+}
+p:hover::after {
+    content: " now $29";
+    color: red;
+}
+
+a:active {
+    background-color: red;
+    
+}
+
+a:hover {
+    background-color: rgb(253, 228, 219);
+    border-color: rgb(237, 130, 88);
+    color:rgb(237, 130, 88);
+}
+
+a {
+  text-decoration: none;
+}
