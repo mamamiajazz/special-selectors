@@ -45,3 +45,18 @@ a:hover {
 a {
   text-decoration: none;
 }
+
+a:active {
+    background-color: red;
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+.card::before {
+    content: "SALE";
+    color: white;
+    background-color: red;
+    border-radius: 40%;
+    padding: 5%;
+}
